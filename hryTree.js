@@ -40,6 +40,11 @@
             foreground: "#001b22", // blue shadow 2
             angleoffset: Math.PI * 2.25,
             hrySpiralF: 0.90 * hrySpiralF
+          }),          
+          new Spiral({
+            foreground: "#0a0022", // purple shadow 2
+            angleoffset: Math.PI * 1.95,
+            hrySpiralF: 0.90 * hrySpiralF
           }),
           new Spiral({
             foreground: "#660000", // red shadow
@@ -67,6 +72,11 @@
             hrySpiralF: 0.95 * hrySpiralF
           }),
           new Spiral({
+            foreground: "#0b0033", // purple shadow
+            angleoffset: -Math.PI * 0.025,
+            hrySpiralF: 0.95 * hrySpiralF
+          }),
+          new Spiral({
             foreground: "#ff0000", // red
             angleoffset: 5,
             hrySpiralF: hrySpiralF
@@ -89,6 +99,11 @@
           new Spiral({
             foreground: "#00c3ff", // blue
             angleoffset: 1,
+            hrySpiralF: hrySpiralF
+          }),
+          new Spiral({
+            foreground: "#5900ff", // purple
+            angleoffset: 0,
             hrySpiralF: hrySpiralF
           })];
 
